@@ -1,0 +1,51 @@
+h1 {
+    color: red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o header */
+header {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    background-color: #333; /* Cor de fundo do header */
+    padding: 10px 20px; /* Preenchimento do header */
+    color: white; /* Cor do texto */
+}
+
+/* Estilo para a logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilo para o menu */
+.menu ul {
+    list-style: none; /* Remove marcadores das listas */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinha os itens da lista em linha */
+}
+
+.menu ul li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+.menu ul li a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+/* Estilo para a seção de contato */
+.contato {
+    font-size: 18px;
+}
+
+.servicos {
+    color: red;
+}
